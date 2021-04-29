@@ -43,12 +43,13 @@ namespace WinFormsApp1
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(110, 163);
+            this.dataGridView1.Location = new System.Drawing.Point(112, 185);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(1387, 501);
+            this.dataGridView1.Size = new System.Drawing.Size(1700, 663);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.RowHeaderMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.DataGridVie_RowHeaderMouseDoubleClick);
@@ -56,9 +57,11 @@ namespace WinFormsApp1
             // 
             // button_add
             // 
-            this.button_add.Location = new System.Drawing.Point(1260, 737);
+            this.button_add.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_add.Location = new System.Drawing.Point(1533, 894);
+            this.button_add.Margin = new System.Windows.Forms.Padding(4);
             this.button_add.Name = "button_add";
-            this.button_add.Size = new System.Drawing.Size(237, 49);
+            this.button_add.Size = new System.Drawing.Size(279, 57);
             this.button_add.TabIndex = 1;
             this.button_add.Text = "Добавить сотрудника";
             this.button_add.UseVisualStyleBackColor = true;
@@ -68,30 +71,33 @@ namespace WinFormsApp1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(110, 22);
+            this.panel1.Location = new System.Drawing.Point(112, 40);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1387, 65);
+            this.panel1.Size = new System.Drawing.Size(1700, 98);
             this.panel1.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(618, 19);
+            this.label1.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(718, 35);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(237, 28);
+            this.label1.Size = new System.Drawing.Size(258, 30);
             this.label1.TabIndex = 0;
             this.label1.Text = "Сотрудники кафедры";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1607, 973);
+            this.ClientSize = new System.Drawing.Size(1924, 1053);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button_add);
             this.Controls.Add(this.dataGridView1);
+            this.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Name = "Form1";
             this.Text = "Кафедра";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -104,10 +110,10 @@ namespace WinFormsApp1
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button_add;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
+        public System.Windows.Forms.DataGridView dataGridView1;
+        public System.Windows.Forms.Button button_add;
+        public System.Windows.Forms.Panel panel1;
+        public System.Windows.Forms.Label label1;
     }
 }
 

@@ -50,13 +50,19 @@ namespace WinFormsApp1
             dataGridView1.ColumnCount = 7;
             dataGridView1.Columns[0].Name = "Id";
             dataGridView1.Columns[1].Name = "Фамилия";
+            dataGridView1.Columns[1].Width = 250;
             dataGridView1.Columns[2].Name = "Имя";
+            dataGridView1.Columns[2].Width = 250;
             dataGridView1.Columns[3].Name = "Отчество";
+            dataGridView1.Columns[3].Width = 250;
             dataGridView1.Columns[4].Name = "Должность";
+            dataGridView1.Columns[4].Width = 260;
             dataGridView1.Columns[5].Name = "Ученое звание";
+            dataGridView1.Columns[5].Width = 260;
             dataGridView1.Columns[6].Name = "Ученая степень";
+            dataGridView1.Columns[6].Width = 252;
 
-            foreach(DataRow item in table.Tables[0].Rows)
+            foreach (DataRow item in table.Tables[0].Rows)
             {
                 string[] buf = { item["Id"].ToString(), item["Фамилия"].ToString(), item["Имя"].ToString(), item["Отчество"].ToString(), item["Должность"].ToString(), item["Ученое звание"].ToString(), item["Ученая степень"].ToString() };
                 dataGridView1.Rows.Add(buf);

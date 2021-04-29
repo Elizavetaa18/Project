@@ -41,16 +41,16 @@ namespace WinFormsApp1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(104, 43);
+            this.panel1.Location = new System.Drawing.Point(123, 45);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(926, 68);
+            this.panel1.Size = new System.Drawing.Size(1685, 68);
             this.panel1.TabIndex = 6;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(391, 22);
+            this.label1.Location = new System.Drawing.Point(754, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(146, 28);
             this.label1.TabIndex = 0;
@@ -62,20 +62,21 @@ namespace WinFormsApp1
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(104, 170);
+            this.dataGridView1.Location = new System.Drawing.Point(123, 170);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowHeadersWidth = 70;
             this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(926, 474);
+            this.dataGridView1.Size = new System.Drawing.Size(1685, 660);
             this.dataGridView1.TabIndex = 5;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(104, 659);
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.Location = new System.Drawing.Point(123, 874);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(127, 47);
+            this.button1.Size = new System.Drawing.Size(220, 47);
             this.button1.TabIndex = 7;
             this.button1.Text = "Назад";
             this.button1.UseVisualStyleBackColor = true;
@@ -85,12 +86,13 @@ namespace WinFormsApp1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1135, 727);
+            this.ClientSize = new System.Drawing.Size(1924, 1053);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "dis";
-            this.Text = "dis";
+            this.Text = "Дисциплины";
             this.Load += new System.EventHandler(this.dis_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

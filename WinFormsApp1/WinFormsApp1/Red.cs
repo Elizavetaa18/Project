@@ -66,7 +66,7 @@ namespace WinFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 f3 = new Form1();
+            Information f3 = new Information(id);
             f3.Show();
         }
 
@@ -78,7 +78,6 @@ namespace WinFormsApp1
                "FROM staff join position p ON staff.id_position = p.id_position " +
                "JOIN degree ad ON staff.id_academic_degree = ad.id_academic_degree " +
                "JOIN title t ON staff.id_academic_title = t.id_academic_title " +
-               //   "JOIN staff_discipline sd ON staff.id_staff = sd.id_staff " +
                "where  id_staff={0} limit 1", id);
 
             MySqlDataAdapter adapter = new MySqlDataAdapter(query1, connection);

@@ -63,7 +63,7 @@ namespace WinFormsApp1
             // 
             this.name.AutoSize = true;
             this.name.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.name.Location = new System.Drawing.Point(700, 130);
+            this.name.Location = new System.Drawing.Point(707, 132);
             this.name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(71, 30);
@@ -74,7 +74,7 @@ namespace WinFormsApp1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(339, 12);
+            this.label1.Location = new System.Drawing.Point(386, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(314, 32);
             this.label1.TabIndex = 1;
@@ -84,7 +84,7 @@ namespace WinFormsApp1
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(98, 86);
+            this.label2.Location = new System.Drawing.Point(124, 88);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(104, 30);
             this.label2.TabIndex = 2;
@@ -94,7 +94,7 @@ namespace WinFormsApp1
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(98, 130);
+            this.label3.Location = new System.Drawing.Point(124, 132);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(55, 30);
             this.label3.TabIndex = 3;
@@ -104,7 +104,7 @@ namespace WinFormsApp1
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(98, 172);
+            this.label4.Location = new System.Drawing.Point(124, 174);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(107, 30);
             this.label4.TabIndex = 4;
@@ -114,7 +114,7 @@ namespace WinFormsApp1
             // 
             this.family.AutoSize = true;
             this.family.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.family.Location = new System.Drawing.Point(700, 86);
+            this.family.Location = new System.Drawing.Point(707, 88);
             this.family.Name = "family";
             this.family.Size = new System.Drawing.Size(71, 30);
             this.family.TabIndex = 5;
@@ -124,7 +124,7 @@ namespace WinFormsApp1
             // 
             this.surname.AutoSize = true;
             this.surname.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.surname.Location = new System.Drawing.Point(700, 172);
+            this.surname.Location = new System.Drawing.Point(707, 174);
             this.surname.Name = "surname";
             this.surname.Size = new System.Drawing.Size(71, 30);
             this.surname.TabIndex = 6;
@@ -134,7 +134,7 @@ namespace WinFormsApp1
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(98, 224);
+            this.label5.Location = new System.Drawing.Point(124, 226);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(54, 30);
             this.label5.TabIndex = 7;
@@ -144,7 +144,7 @@ namespace WinFormsApp1
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(98, 274);
+            this.label6.Location = new System.Drawing.Point(124, 276);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(168, 30);
             this.label6.TabIndex = 8;
@@ -154,7 +154,7 @@ namespace WinFormsApp1
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(98, 328);
+            this.label7.Location = new System.Drawing.Point(124, 330);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(199, 30);
             this.label7.TabIndex = 9;
@@ -164,7 +164,7 @@ namespace WinFormsApp1
             // 
             this.label.AutoSize = true;
             this.label.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label.Location = new System.Drawing.Point(98, 376);
+            this.label.Location = new System.Drawing.Point(124, 378);
             this.label.Name = "label";
             this.label.Size = new System.Drawing.Size(125, 30);
             this.label.TabIndex = 10;
@@ -174,7 +174,7 @@ namespace WinFormsApp1
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(98, 479);
+            this.label9.Location = new System.Drawing.Point(124, 481);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(164, 30);
             this.label9.TabIndex = 11;
@@ -184,7 +184,7 @@ namespace WinFormsApp1
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label10.Location = new System.Drawing.Point(98, 587);
+            this.label10.Location = new System.Drawing.Point(124, 598);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(150, 30);
             this.label10.TabIndex = 12;
@@ -194,7 +194,7 @@ namespace WinFormsApp1
             // 
             this.gender.AutoSize = true;
             this.gender.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.gender.Location = new System.Drawing.Point(700, 224);
+            this.gender.Location = new System.Drawing.Point(707, 226);
             this.gender.Name = "gender";
             this.gender.Size = new System.Drawing.Size(83, 30);
             this.gender.TabIndex = 13;
@@ -204,7 +204,7 @@ namespace WinFormsApp1
             // 
             this.birthday.AutoSize = true;
             this.birthday.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.birthday.Location = new System.Drawing.Point(700, 274);
+            this.birthday.Location = new System.Drawing.Point(707, 276);
             this.birthday.Name = "birthday";
             this.birthday.Size = new System.Drawing.Size(83, 30);
             this.birthday.TabIndex = 14;
@@ -214,7 +214,7 @@ namespace WinFormsApp1
             // 
             this.double_job.AutoSize = true;
             this.double_job.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.double_job.Location = new System.Drawing.Point(700, 328);
+            this.double_job.Location = new System.Drawing.Point(707, 330);
             this.double_job.Name = "double_job";
             this.double_job.Size = new System.Drawing.Size(83, 30);
             this.double_job.TabIndex = 15;
@@ -224,7 +224,7 @@ namespace WinFormsApp1
             // 
             this.position.AutoSize = true;
             this.position.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.position.Location = new System.Drawing.Point(700, 376);
+            this.position.Location = new System.Drawing.Point(707, 378);
             this.position.Name = "position";
             this.position.Size = new System.Drawing.Size(83, 30);
             this.position.TabIndex = 16;
@@ -234,7 +234,7 @@ namespace WinFormsApp1
             // 
             this.academic_title.AutoSize = true;
             this.academic_title.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.academic_title.Location = new System.Drawing.Point(700, 479);
+            this.academic_title.Location = new System.Drawing.Point(707, 481);
             this.academic_title.Name = "academic_title";
             this.academic_title.Size = new System.Drawing.Size(83, 30);
             this.academic_title.TabIndex = 17;
@@ -244,7 +244,7 @@ namespace WinFormsApp1
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(98, 536);
+            this.label8.Location = new System.Drawing.Point(124, 538);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(170, 30);
             this.label8.TabIndex = 19;
@@ -255,7 +255,7 @@ namespace WinFormsApp1
             this.academic_degree.AutoSize = true;
             this.academic_degree.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.academic_degree.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.academic_degree.Location = new System.Drawing.Point(700, 536);
+            this.academic_degree.Location = new System.Drawing.Point(707, 538);
             this.academic_degree.Name = "academic_degree";
             this.academic_degree.Size = new System.Drawing.Size(83, 30);
             this.academic_degree.TabIndex = 20;
@@ -274,7 +274,7 @@ namespace WinFormsApp1
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.Location = new System.Drawing.Point(98, 426);
+            this.label12.Location = new System.Drawing.Point(124, 428);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(104, 30);
             this.label12.TabIndex = 22;
@@ -285,7 +285,7 @@ namespace WinFormsApp1
             // 
             this.clock.AutoSize = true;
             this.clock.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.clock.Location = new System.Drawing.Point(700, 428);
+            this.clock.Location = new System.Drawing.Point(707, 430);
             this.clock.Name = "clock";
             this.clock.Size = new System.Drawing.Size(83, 30);
             this.clock.TabIndex = 23;
@@ -293,9 +293,9 @@ namespace WinFormsApp1
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(98, 658);
+            this.button1.Location = new System.Drawing.Point(124, 691);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(199, 52);
+            this.button1.Size = new System.Drawing.Size(241, 52);
             this.button1.TabIndex = 24;
             this.button1.Text = "Назад";
             this.button1.UseVisualStyleBackColor = true;
@@ -303,9 +303,9 @@ namespace WinFormsApp1
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(700, 655);
+            this.button2.Location = new System.Drawing.Point(707, 691);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(199, 55);
+            this.button2.Size = new System.Drawing.Size(260, 55);
             this.button2.TabIndex = 25;
             this.button2.Text = "Редактировать";
             this.button2.UseVisualStyleBackColor = true;
@@ -339,17 +339,17 @@ namespace WinFormsApp1
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.name);
-            this.panel1.Location = new System.Drawing.Point(53, 23);
+            this.panel1.Location = new System.Drawing.Point(423, 32);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(995, 742);
+            this.panel1.Size = new System.Drawing.Size(1100, 1009);
             this.panel1.TabIndex = 26;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(700, 584);
+            this.button3.Location = new System.Drawing.Point(707, 595);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(260, 36);
+            this.button3.Size = new System.Drawing.Size(260, 45);
             this.button3.TabIndex = 26;
             this.button3.Text = "Посмотреть дисциплины";
             this.button3.UseVisualStyleBackColor = true;
@@ -359,7 +359,7 @@ namespace WinFormsApp1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1110, 777);
+            this.ClientSize = new System.Drawing.Size(1924, 1053);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label11);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -398,9 +398,9 @@ namespace WinFormsApp1
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label clock;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button3;
+        public System.Windows.Forms.Button button1;
+        public System.Windows.Forms.Button button2;
     }
 }

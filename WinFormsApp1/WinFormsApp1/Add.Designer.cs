@@ -81,101 +81,105 @@ namespace WinFormsApp1
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.panel1.Location = new System.Drawing.Point(61, 40);
+            this.panel1.Location = new System.Drawing.Point(448, 29);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(989, 719);
+            this.panel1.Size = new System.Drawing.Size(989, 1012);
             this.panel1.TabIndex = 28;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // comboBox5
             // 
+            this.comboBox5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(700, 495);
+            this.comboBox5.Location = new System.Drawing.Point(630, 491);
             this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(151, 38);
+            this.comboBox5.Size = new System.Drawing.Size(280, 28);
             this.comboBox5.TabIndex = 42;
             this.comboBox5.SelectedIndexChanged += new System.EventHandler(this.comboBox5_SelectedIndexChanged);
             // 
             // comboBox4
             // 
+            this.comboBox4.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(700, 438);
+            this.comboBox4.Location = new System.Drawing.Point(630, 434);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(151, 38);
+            this.comboBox4.Size = new System.Drawing.Size(280, 33);
             this.comboBox4.TabIndex = 41;
             this.comboBox4.SelectedIndexChanged += new System.EventHandler(this.comboBox4_SelectedIndexChanged);
             // 
             // comboBox3
             // 
+            this.comboBox3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(700, 382);
+            this.comboBox3.Location = new System.Drawing.Point(630, 375);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(151, 38);
+            this.comboBox3.Size = new System.Drawing.Size(280, 33);
             this.comboBox3.TabIndex = 40;
             this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
             // comboBox2
             // 
+            this.comboBox2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "Да",
             "Нет"});
-            this.comboBox2.Location = new System.Drawing.Point(700, 328);
+            this.comboBox2.Location = new System.Drawing.Point(630, 321);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(151, 38);
+            this.comboBox2.Size = new System.Drawing.Size(280, 33);
             this.comboBox2.TabIndex = 39;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dateTimePicker1.Location = new System.Drawing.Point(700, 280);
+            this.dateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dateTimePicker1.Location = new System.Drawing.Point(630, 267);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(250, 36);
+            this.dateTimePicker1.Size = new System.Drawing.Size(280, 32);
             this.dateTimePicker1.TabIndex = 38;
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // comboBox1
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.comboBox1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Женский",
             "Мужской"});
-            this.comboBox1.Location = new System.Drawing.Point(700, 224);
+            this.comboBox1.Location = new System.Drawing.Point(630, 223);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(151, 38);
+            this.comboBox1.Size = new System.Drawing.Size(280, 33);
             this.comboBox1.TabIndex = 37;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // surname
             // 
-            this.surname.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.surname.Location = new System.Drawing.Point(700, 177);
+            this.surname.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.surname.Location = new System.Drawing.Point(630, 170);
             this.surname.Name = "surname";
-            this.surname.Size = new System.Drawing.Size(125, 36);
+            this.surname.Size = new System.Drawing.Size(280, 32);
             this.surname.TabIndex = 28;
             // 
             // name
             // 
-            this.name.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.name.Location = new System.Drawing.Point(700, 135);
+            this.name.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.name.Location = new System.Drawing.Point(630, 128);
             this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(125, 36);
+            this.name.Size = new System.Drawing.Size(280, 32);
             this.name.TabIndex = 27;
             // 
             // family
             // 
-            this.family.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.family.Location = new System.Drawing.Point(700, 91);
+            this.family.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.family.Location = new System.Drawing.Point(630, 86);
             this.family.Name = "family";
-            this.family.Size = new System.Drawing.Size(125, 36);
+            this.family.Size = new System.Drawing.Size(280, 32);
             this.family.TabIndex = 26;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(700, 637);
+            this.button2.Location = new System.Drawing.Point(630, 631);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(199, 55);
+            this.button2.Size = new System.Drawing.Size(250, 48);
             this.button2.TabIndex = 25;
             this.button2.Text = "Сохранить";
             this.button2.UseVisualStyleBackColor = true;
@@ -183,9 +187,9 @@ namespace WinFormsApp1
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(109, 640);
+            this.button1.Location = new System.Drawing.Point(109, 631);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(199, 52);
+            this.button1.Size = new System.Drawing.Size(250, 48);
             this.button1.TabIndex = 24;
             this.button1.Text = "Назад";
             this.button1.UseVisualStyleBackColor = true;
@@ -304,7 +308,7 @@ namespace WinFormsApp1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1130, 790);
+            this.ClientSize = new System.Drawing.Size(1924, 1053);
             this.Controls.Add(this.panel1);
             this.Name = "Add";
             this.Text = "Добавление сотрудников";
@@ -320,8 +324,6 @@ namespace WinFormsApp1
         public System.Windows.Forms.TextBox surname;
         public System.Windows.Forms.TextBox name;
         public System.Windows.Forms.TextBox family;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
         public System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
@@ -333,11 +335,13 @@ namespace WinFormsApp1
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox5;
+        public System.Windows.Forms.Button button2;
+        public System.Windows.Forms.Button button1;
+        public System.Windows.Forms.ComboBox comboBox1;
+        public System.Windows.Forms.DateTimePicker dateTimePicker1;
+        public System.Windows.Forms.ComboBox comboBox2;
+        public System.Windows.Forms.ComboBox comboBox4;
+        public System.Windows.Forms.ComboBox comboBox3;
+        public System.Windows.Forms.ComboBox comboBox5;
     }
 }

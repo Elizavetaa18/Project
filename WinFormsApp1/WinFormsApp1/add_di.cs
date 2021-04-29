@@ -76,7 +76,9 @@ namespace WinFormsApp1
             dataGridView1.ColumnCount = 3;
             dataGridView1.Columns[0].Name = "Id";
             dataGridView1.Columns[1].Name = "Дисциплина";
+            dataGridView1.Columns[1].Width = 600;
             dataGridView1.Columns[2].Name = "Связь";
+            dataGridView1.Columns[2].Width = 900;
 
 
             dataGridView1.Rows.Clear();
@@ -114,12 +116,11 @@ namespace WinFormsApp1
                 command.Parameters.Add("@id_discipline", MySqlDbType.Int32).Value = iddis;
               
                 command.ExecuteNonQuery();
-                //MessageBox.Show("Преподаватель привязан к дисциплине", "Заголовок", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                
 
             }
             catch(MySqlException)
             {
-               // MessageBox.Show("Преподаватель уже привязан к дисциплине", "Заголовок", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             
             db.closeConnection();
@@ -131,6 +132,11 @@ namespace WinFormsApp1
             this.Hide();
             Red f3 = new Red(id);
             f3.Show();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

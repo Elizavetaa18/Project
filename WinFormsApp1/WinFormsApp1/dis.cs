@@ -38,6 +38,8 @@ namespace WinFormsApp1
 
             dataGridView1.ColumnCount = 1;
             dataGridView1.Columns[0].Name = "Дисциплины";
+            dataGridView1.Columns[0].Width = 1612;
+
 
             foreach (DataRow item in data.Tables[0].Rows)
             {
